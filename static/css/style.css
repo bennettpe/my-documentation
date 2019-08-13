@@ -1,0 +1,19 @@
+body {
+     background: #f8f9fa;
+     font-family: Open Sans, sans-serif;
+    /* Needed for Bootstrap Scrollspy */
+     position: relative;
+}
+
+/* Navbar */
+.navbar {
+     border: 0;
+     background-color: #563d7c;
+     text-align: center;
+}
+
+/* Logo image */
+.navbar-brand img {
+     height: 70px;
+     width: 70px;
+}
