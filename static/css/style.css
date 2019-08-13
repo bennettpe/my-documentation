@@ -16,31 +16,36 @@ body {
      width: 50px;
 }
 
+/* */
+.navbar-toggler {
+
+}
+
 /* Small devices (landscape phones, 576px and down) */
 @media screen and (max-width: 576px) {
   .navbar-brand {
-    font-size: 12px;
-    margin-right: 3px;
+    font-size: 0.75rem;
+    margin-right: 0.1875rem;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   .navbar-brand {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   .navbar-brand {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   .navbar-brand {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 }
